@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		504627B51EDE7413005E1AAA /* ZLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 504627B31EDE7413005E1AAA /* ZLNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504627E01EDE9129005E1AAA /* ZLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 504627DF1EDE9129005E1AAA /* ZLNetwork.h */; };
+		504627E31EDE9139005E1AAA /* ZLNetworkUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 504627E11EDE9139005E1AAA /* ZLNetworkUtility.h */; };
+		504627E41EDE9139005E1AAA /* ZLNetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 504627E21EDE9139005E1AAA /* ZLNetworkUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		504627B01EDE7413005E1AAA /* ZLNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		504627B31EDE7413005E1AAA /* ZLNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNetwork.h; sourceTree = "<group>"; };
 		504627B41EDE7413005E1AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504627DF1EDE9129005E1AAA /* ZLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNetwork.h; sourceTree = "<group>"; };
+		504627E11EDE9139005E1AAA /* ZLNetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNetworkUtility.h; sourceTree = "<group>"; };
+		504627E21EDE9139005E1AAA /* ZLNetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLNetworkUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +50,20 @@
 		504627B21EDE7413005E1AAA /* ZLNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				504627B31EDE7413005E1AAA /* ZLNetwork.h */,
+				504627DE1EDE9110005E1AAA /* Classes */,
 				504627B41EDE7413005E1AAA /* Info.plist */,
 			);
 			path = ZLNetwork;
+			sourceTree = "<group>";
+		};
+		504627DE1EDE9110005E1AAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				504627DF1EDE9129005E1AAA /* ZLNetwork.h */,
+				504627E11EDE9139005E1AAA /* ZLNetworkUtility.h */,
+				504627E21EDE9139005E1AAA /* ZLNetworkUtility.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +73,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				504627B51EDE7413005E1AAA /* ZLNetwork.h in Headers */,
+				504627E31EDE9139005E1AAA /* ZLNetworkUtility.h in Headers */,
+				504627E01EDE9129005E1AAA /* ZLNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504627E41EDE9139005E1AAA /* ZLNetworkUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				504627BA1EDE7413005E1AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZLNetworkUtility.h"
 
 //! Project version number for ZLNetwork.
 FOUNDATION_EXPORT double ZLNetworkVersionNumber;
